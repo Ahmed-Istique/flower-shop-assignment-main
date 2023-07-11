@@ -61,14 +61,9 @@ body {
     height: 800px;
 }
 
-/* main css starts here */
-main {
-    margin: 0px 240;
-
-}
 
 /* section_1_our featured flower starts */
-.Featured_flower {}
+
 
 .tagline_featured_flower {
     color: #272727;
@@ -143,16 +138,17 @@ main {
 /* section_1_our featured flower ends */
 /* section hot sale starts */
 .hot_sales {
-    border-radius: 8px;
-    background: #2727270D;
-    margin: 195px 240px;
-    padding: 86px 175px;
+    
 }
 
 .hot_sale {
     display: flex;
     justify-content: space-around;
     text-align: center;
+    border-radius: 8px;
+    background: #2727270D;
+    margin: 195px 240px;
+    padding: 86px 175px;
 
 }
 
@@ -175,14 +171,18 @@ main {
     text-align: center;
 
 }
+.hot{
+    
+}
 
 .hot_sales2 {
     background-color: #E554730D;
     width: 100%;
     background-repeat: no-repeat;
     display: flex;
-    /* padding: 100px 395px 100px 429px; */
-    justify-content: space-between;
+    /* padding: 100px 395px 100px 200px; */
+    justify-content:space-around;
+    padding-left: 100px;
     align-items: center;
 }
 
@@ -279,8 +279,60 @@ main {
 /* slide imag here */
 
 /* section  Get The Latest Deals starts */
-.flower_bannEr{
+.flower_bannEr {
     margin: 128px auto;
     justify-items: center;
 }
+
 /* section  Get The Latest Deals ends */
+.insta {
+    align-items: center;
+}
+
+/* footer part starts */
+.footer {
+    width: 100%;
+    /* height: 449px; */
+    flex-shrink: 0;
+    background: #111010;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    margin-top: 128px ;
+}
+
+.footer_title {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+
+}
+
+.footer_title_shop {
+    color: white;
+}
+
+.footer_description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.copyright_claim{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+/* footer part ends */
