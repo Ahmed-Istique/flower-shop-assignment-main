@@ -1,5 +1,6 @@
 /* shared style */
 main {
+    /* max-width: 1140px; */
     margin: 0 auto;
 }
 
@@ -274,3 +275,12 @@ main {
     width: 342px;
     height: 396px;
 }
+
+/* slide imag here */
+
+/* section  Get The Latest Deals starts */
+.flower_bannEr{
+    margin: 128px auto;
+    justify-items: center;
+}
+/* section  Get The Latest Deals ends */
