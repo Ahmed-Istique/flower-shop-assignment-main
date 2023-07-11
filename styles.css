@@ -1,4 +1,7 @@
 /* shared style */
+main {
+    margin: 0 auto;
+}
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -7,7 +10,7 @@ body {
     background-color: #E554731A;
     width: 100%;
     background-repeat: no-repeat;
-    
+
 }
 
 .Shop {
@@ -34,21 +37,138 @@ body {
     font-weight: 800;
     line-height: normal;
 }
-.bannerdescription{
+
+.bannerdescription {
     color: rgba(39, 39, 39, 0.60);
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
-.banner_div{
+
+.banner_div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px 240px 0px 240px;
 }
-.banner_img{
-    width:635px ;
+
+.banner_img {
+    width: 635px;
     height: 800px;
 }
+
+/* main css starts here */
+main {
+    margin: 0px 240;
+
+}
+
+/* section_1_our featured flower starts */
+.Featured_flower {}
+
+.tagline_featured_flower {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 178px;
+}
+
+.description_featured_flower {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0 663px 0 663px;
+}
+
+.flowers {
+    display: flex;
+    padding: 48px 240px 0px 240px;
+    gap: 24px;
+}
+
+.flower_img1 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    object-fit: cover;
+}
+
+.flower_img2 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: #0597A026
+}
+
+.flower_img3 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: #477D1126
+}
+
+.imge_flo1 {
+    width: 310px;
+    height: 428px;
+    padding: 110px 78px 0px 76px;
+}
+
+.text_deco {
+    text-decoration: underline;
+    margin-top: 32px;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+/* section_1_our featured flower ends */
+/* section hot sale starts */
+.hot_sales {
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 160px 240px;
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+}
+
+.sale_img {
+    width: 88px;
+    height: 88px;
+}
+
+.sales_des {
+    color: rgba(39, 39, 39, 0.80);
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    
+}
+.sales{
+    text-align: center;
+
+}
+
+
+/* section hot sale ends */
+/* main css ends here */
