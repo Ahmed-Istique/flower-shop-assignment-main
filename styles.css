@@ -137,10 +137,6 @@ body {
 
 /* section_1_our featured flower ends */
 /* section hot sale starts */
-.hot_sales {
-    
-}
-
 .hot_sale {
     display: flex;
     justify-content: space-around;
@@ -171,10 +167,6 @@ body {
     text-align: center;
 
 }
-.hot{
-    
-}
-
 .hot_sales2 {
     background-color: #E554730D;
     width: 100%;
