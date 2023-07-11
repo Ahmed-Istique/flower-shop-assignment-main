@@ -395,6 +395,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-top: 128px;
 }
 .rev {
     color: var(--dark-02, #474747);
@@ -417,5 +418,5 @@ hr {
 .review{
     display: flex;
     align-items: center;
-    margin: 128px 300px 128px 300px;
+    margin: 30px 300px 128px 300px;
 }
