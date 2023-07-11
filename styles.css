@@ -167,13 +167,14 @@ body {
     text-align: center;
 
 }
+
 .hot_sales2 {
     background-color: #E554730D;
     width: 100%;
     background-repeat: no-repeat;
     display: flex;
     /* padding: 100px 395px 100px 200px; */
-    justify-content:space-around;
+    justify-content: space-around;
     padding-left: 100px;
     align-items: center;
 }
@@ -289,7 +290,7 @@ body {
     background: #111010;
     padding-top: 128px;
     padding-bottom: 128px;
-    margin-top: 128px ;
+    margin-top: 128px;
 }
 
 .footer_title {
@@ -316,15 +317,59 @@ body {
     font-weight: 400;
     line-height: 30px;
 }
-.copyright_claim{
+
+.copyright_claim {
     color: rgba(255, 255, 255, 0.40);
-text-align: center;
-font-family: Lato;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 
 }
 
 /* footer part ends */
+.abc {
+    background-image: url("./Rectangle9.png");
+    text-align: center;
+    background-repeat: no-repeat;
+    /* margin: 240px 240px; */
+    
+    
+}
+
+.get_latest_text {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.get_deal_paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.email {
+    padding: 23px 513px 22px 22px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    /* margin-left: 527px; */
+}
+.email_signup{
+    gap: 16px;
+    display: flex;
+}
+.d{
+margin:128px 240px;
+}
