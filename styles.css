@@ -15,6 +15,15 @@ body {
 
 }
 
+.bannerdescription {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 .Shop {
     width: 177px;
     height: 64px;
@@ -40,14 +49,6 @@ body {
     line-height: normal;
 }
 
-.bannerdescription {
-    color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-}
 
 .banner_div {
     display: flex;
@@ -56,10 +57,7 @@ body {
     padding: 50px 240px 0px 240px;
 }
 
-.banner_img {
-    width: 635px;
-    height: 800px;
-}
+
 
 
 /* section_1_our featured flower starts */
@@ -233,7 +231,6 @@ body {
 .hot_sales2_img {
     width: 318px;
     height: 420px;
-    flex-shrink: 0;
 }
 
 /* section hot sale ends */
@@ -272,10 +269,7 @@ body {
 /* slide imag here */
 
 /* section  Get The Latest Deals starts */
-.flower_bannEr {
-    margin: 128px auto;
-    justify-items: center;
-}
+
 
 /* section  Get The Latest Deals ends */
 .insta {
@@ -326,20 +320,32 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
 }
 
-/* footer part ends */
-.abc {
-    background-image: url("./Rectangle9.png");
-    text-align: center;
-    background-repeat: no-repeat;
-    /* margin: 240px 240px; */
-    
-    
+#submit {
+    /* display: flex; */
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFFFFF;
+    border: 0;
+    padding: 18.29px 31px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
 }
 
-.get_latest_text {
+#email {
+    padding: 23px 553px 22px 22px;
+    margin-right: 16px;
+    border: 0;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.get_deal_text {
     color: #272727;
     text-align: center;
     font-family: Lato;
@@ -347,9 +353,10 @@ body {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    /* margin-bottom: 16px; */
 }
 
-.get_deal_paragraph {
+.cupon {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-family: Lato;
@@ -357,19 +364,24 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+
 }
 
-.email {
-    padding: 23px 513px 22px 22px;
-    border-radius: 8px;
-    background: #FFF;
-    border: 0;
-    /* margin-left: 527px; */
+.best_deal_cupon {
+    background-image: url(./Rectangle9.png);
+    background-repeat: no-repeat;
+    margin: 128px 240px 128px 240px;
+
+
+
 }
-.email_signup{
-    gap: 16px;
-    display: flex;
+
+.text_only {
+    text-align: center;
+    position: static;
+    padding: 122px 100px 121px 100px;
 }
-.d{
-margin:128px 240px;
+
+.form_submission {
+    align-items: center;
 }
